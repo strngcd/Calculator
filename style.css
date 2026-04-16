@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'poppins' , sans-serif;
+    font-size: 20px;
+}
+body {
+    background-color: #B0E4CC;
+}
+
+
+.bground {
+    background-color: black;
+    width: 300px;
+    height: 570px;
+    margin: 1rem auto;
+    border-radius: 2rem;
+}
+.display {
+    height: 180px;
+    text-align: center;
+}
+hr {
+    border-color: #282828;
+    margin: 1rem auto;
+}
+.btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.btn button {
+    border-radius: 50%;
+    background-color: #282828;
+    border: #282828 solid 1px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin: 3px;
+    font-weight: 600;
+
+}
+.operator {
+    color: #39FF14;
+}
+#clear {
+    color: red;
+}
+#equal {
+    background-color: #39FF14;
+    color: black;
+}
+.btn button:hover {
+        background-color: rgb(40, 40, 40, 0.7);
+        font-size: 16px;
+
+}
+.input {
+    padding-top: 2.5rem;
+    padding-right: 1rem;
+    width: 280px;
+
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+
+}
+.result {
+    padding-top: 2.5rem;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: end;
+    color: #39FF14;
+}
