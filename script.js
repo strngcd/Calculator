@@ -48,8 +48,6 @@ function calcBrain (e){
         if (cBucket=== '')return
         if (bucket === null){
             bucket= Number(cBucket)
-                                console.log('im here')
-
             operator = e.target.id
             cBucket = ''
         }
@@ -78,7 +76,6 @@ function calcBrain (e){
 
         }
     }
-    console.log(bucket)
 }
 
 
