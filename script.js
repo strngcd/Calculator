@@ -25,6 +25,7 @@ clear.addEventListener('click' , () => {
     cBucket = ''
     bucket = null
     operator = ''
+    snitch = 0
 
 })
 
@@ -37,10 +38,11 @@ clear.addEventListener('click' , () => {
 let cBucket = ''
 let bucket = null
 let operator = ''
-let 
+let snitch = 0
 function calcBrain (e){
     if (e.target.classList.contains('number')) {
         cBucket += e.target.textContent
+        snitch++
     }
     else{
         if (cBucket=== '')return
@@ -82,6 +84,6 @@ function calcBrain (e){
 
 
 function calMonitor (e){
-    if (e.target.id !== 'equal' && )
+    if (e.target.id !== 'equal' && snitch !== 0 )
     document.querySelector('.input').append(e.target.textContent)
 }
